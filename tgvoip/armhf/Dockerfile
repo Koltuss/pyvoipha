@@ -18,7 +18,7 @@ RUN apk add --update \
               pulseaudio \
               opus \
               alsa-lib \
- && pip3.6 install --upgrade pip \
+ && pip3.8 install --upgrade pip \
  && rm /var/cache/apk/*
 
 WORKDIR /usr/src
