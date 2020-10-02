@@ -1,5 +1,5 @@
 #FROM alpine:3.8
-FROM arm32v6/alpine:3.8
+FROM armhf/alpine:3.8
 
 ENV QEMU_EXECVE 1
 
